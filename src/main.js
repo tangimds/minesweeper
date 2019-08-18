@@ -16,9 +16,9 @@ let lvl;
 function setup() {
   createCanvas(window.innerWidth, window.innerHeight);
   document.addEventListener("contextmenu", event => event.preventDefault());
-  caseImg = loadImage("../media/case.png");
-  flagImg = loadImage("../media/flag.png");
-  bombImg = loadImage("../media/bomb.png");
+  caseImg = loadImage("media/case.png");
+  flagImg = loadImage("media/flag.png");
+  bombImg = loadImage("media/bomb.png");
 
   gridWidth = 10;
   gridHeight = 10;
